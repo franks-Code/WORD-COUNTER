@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    height: 100vh;
+    background: linear-gradient(to right, #96deda,#50c9c3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'open sans',sans-serif;
+}
+.container{
+    width: 500px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.counters{
+    width: 100%;
+    display: flex;
+    justify-content: space-around ;
+}
+span{
+    font-size: 15px;
+    color: gray;
+}
+.charactersCounter,
+.wordsCounter{
+    width: 90px;
+    height: 90px;
+    background-color: #fff;
+    font-size: 40px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0  15px 30px rgb(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: space-around;
+}
+textarea{
+    color: black;
+    width: 90%;
+    height: 50%;
+    font-size: 20px;
+    padding: 15px;
+     outline: none;
+     resize: none;
+     background: rgb(225,225,225,1);
+     border-radius: 5px;
+     box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
